@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "target": "es5",
+    "types": ["node", "jest"],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es5"]
+  },
+  "exclude": ["jest.config.js"]
+}

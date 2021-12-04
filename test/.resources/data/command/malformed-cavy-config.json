@@ -1,0 +1,16 @@
+:){
+  "lint": {
+    "commands": [
+        "name": "eslint",
+        "targets": ["src", "test"],
+        "test": "npx --no-install --quiet eslint",
+        "fix": "npx --no-install --quiet eslint --fix"
+      },
+      {
+        "name": "prettier",
+        "targets": ["."],
+        "test": "npx --no-install --quiet prettier --check",
+        "fix": "npx --no-install --quiet prettier --write"
+      }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "lint": {
+    "commands": [
+      {
+        "name": "test",
+        "targets": "this will fail",
+        "test": "echo test",
+        "fix": "echo fix"
+      }
+    ]
+  }
+}

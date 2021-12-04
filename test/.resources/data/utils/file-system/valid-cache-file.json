@@ -1,0 +1,12 @@
+{
+  "test": {
+    "tags": {
+      "test": {
+        "test": ["testA", "testB"]
+      }
+    },
+    "tarballs": {
+        "test": ["testA", "testB"]
+    }
+  }
+}

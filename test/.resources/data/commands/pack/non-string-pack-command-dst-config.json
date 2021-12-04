@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "commands": [
+      {
+        "name": "test",
+        "src": ".",
+        "dst": 42,
+        "devPostfix": "dev-build",
+        "postUpdate": []
+      }
+    ]
+  }
+}

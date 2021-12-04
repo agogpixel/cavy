@@ -1,0 +1,10 @@
+{
+  "name": "mock-package-json",
+  "version": "0.0.0",
+  "description": "Mock package.json file.",
+  "removeMe": {},
+  "keepMe": {
+    "removeMe": true,
+    "keepMe": "keepMe"
+  }
+}

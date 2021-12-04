@@ -1,0 +1,12 @@
+{
+  "copy": {
+    "commands": [
+      {
+        "name": "test",
+        "src": ".",
+        "dst": "",
+        "redact": []
+      }
+    ]
+  }
+}

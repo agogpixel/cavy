@@ -1,0 +1,22 @@
+{
+  "name": "@agogpixel/cavy-smoke-test",
+  "version": "0.0.0",
+  "description": "Cavy smoke test.",
+  "scripts": {
+    "prepare": "npm link ../dist --force",
+    "test": "jest"
+  },
+  "author": "kidthales <kidthales@agogpixel.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^14.17.27",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

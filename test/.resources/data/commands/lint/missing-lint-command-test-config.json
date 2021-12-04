@@ -1,0 +1,11 @@
+{
+  "lint": {
+    "commands": [
+      {
+        "name": "test-config",
+        "targets": [],
+        "fix": "echo fix-command"
+      }
+    ]
+  }
+}

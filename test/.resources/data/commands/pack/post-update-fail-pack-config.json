@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "commands": [
+      {
+        "name": "test",
+        "src": "test/.resources/data/commands/pack/release-dist",
+        "dst": "test/.resources/tmp/commands/pack",
+        "devPostfix": "dev-build",
+        "postUpdate": ["bash -c '[ true == false ]'"]
+      }
+    ]
+  }
+}

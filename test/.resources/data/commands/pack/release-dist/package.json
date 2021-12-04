@@ -1,0 +1,5 @@
+{
+  "name": "@agogpixel/cavy-pack-test",
+  "version": "0.0.0",
+  "description": "Opinionated tool for NPM package development."
+}

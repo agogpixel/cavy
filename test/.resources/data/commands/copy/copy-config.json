@@ -1,0 +1,12 @@
+{
+  "copy": {
+    "commands": [
+      {
+        "name": "test",
+        "src": "test/.resources/data/commands/copy",
+        "dst": "test/.resources/tmp/commands/copy/dist",
+        "redact": ["removeMe", "keepMe.removeMe"]
+      }
+    ]
+  }
+}

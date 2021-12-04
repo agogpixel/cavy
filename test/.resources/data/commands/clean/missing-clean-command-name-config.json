@@ -1,0 +1,10 @@
+{
+  "clean": {
+    "commands": [
+      {
+        "dirs": [],
+        "files": []
+      }
+    ]
+  }
+}

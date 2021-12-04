@@ -1,0 +1,18 @@
+{
+  "lint": {
+    "commands": [
+      {
+        "name": "testA",
+        "targets": ["."],
+        "test": "bash -c 'echo testA'",
+        "fix": "bash -c 'echo fixA'"
+      },
+      {
+        "name": "testB",
+        "targets": ["."],
+        "test": "bash -c 'echo testB'",
+        "fix": "bash -c 'echo fixB'"
+      }
+    ]
+  }
+}

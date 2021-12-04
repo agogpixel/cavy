@@ -1,0 +1,18 @@
+{
+  "lint": {
+    "commands": [
+      {
+        "name": "test-config",
+        "targets": [],
+        "test": "[ false == true ]",
+        "fix": "[ false == true ]"
+      },
+      {
+        "name": "test-config2",
+        "targets": [],
+        "test": "[ true == false ]",
+        "fix": "[ true == false ]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "copy": {
+    "commands": [
+      {
+        "name": "test",
+        "src": "test/.resources/data/commands/copy/force",
+        "dst": "test/.resources/data/commands/copy/force",
+        "redact": []
+      }
+    ]
+  }
+}

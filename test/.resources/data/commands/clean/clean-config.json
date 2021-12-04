@@ -1,0 +1,16 @@
+{
+  "clean": {
+    "commands": [
+      {
+        "name": "test-config",
+        "dirs": ["test/.resources/tmp/commands/clean/tmpA"],
+        "files": ["test/.resources/tmp/commands/clean/tmpA.txt"]
+      },
+      {
+        "name": "test-config2",
+        "dirs": ["test/.resources/tmp/commands/clean/tmpB"],
+        "files": ["test/.resources/tmp/commands/clean/tmpB.txt"]
+      }
+    ]
+  }
+}

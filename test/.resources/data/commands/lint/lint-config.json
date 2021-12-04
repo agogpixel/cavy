@@ -1,0 +1,18 @@
+{
+  "lint": {
+    "commands": [
+      {
+        "name": "test-config",
+        "test": "echo test-command",
+        "fix": "echo fix-command",
+        "targets": []
+      },
+      {
+        "name": "test-config2",
+        "test": "echo test-command2",
+        "fix": "echo fix-command2",
+        "targets": []
+      }
+    ]
+  }
+}

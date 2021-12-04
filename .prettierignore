@@ -1,0 +1,11 @@
+.git/*
+.husky/*
+.vscode/*
+coverage/*
+dist/*
+lib/*
+node_modules/*
+test/.resources/*
+.cavycache
+package-lock.json
+package.json

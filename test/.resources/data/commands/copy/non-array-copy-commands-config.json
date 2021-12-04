@@ -1,0 +1,5 @@
+{
+  "copy": {
+    "commands": "this will fail"
+  }
+}
