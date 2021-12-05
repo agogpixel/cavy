@@ -21,9 +21,8 @@ runs:
       with:
         name: ${{ inputs.build-artifacts-name }}
         path: dist
-    - name: Prepare Package
-      id: prepare-package
-      run: npm run create-tarball "$([ "${{ inputs.release }}" == 'true' ] && echo -- --release)"
+    - name: Create Tarball
+      run: if [ "${{ inputs.release }}" == 'true' ]; then npm run create-tarball -- --release; else npm run create-tarball; fi"
       shell: bash
     - name: Upload Package Artifacts
       uses: actions/upload-artifact@v2
