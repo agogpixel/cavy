@@ -9,5 +9,5 @@ module.exports = {
   testPathIgnorePatterns: ['<rootDir>/smoke-test/'],
   verbose: true,
   collectCoverageFrom: ['src/**/*.ts', '!src/schemas/*.ts', '!src/**/index.ts'],
-  coverageReporters: ['text', 'html']
+  coverageReporters: ['text', 'html', 'text-summary']
 };

@@ -4,7 +4,6 @@ import { exec, mv } from 'shelljs';
 import { JsonObject, PackageJson } from 'type-fest';
 
 import Command from '../command';
-import { ConfigError } from '../errors';
 import { PackCommandConfig, ParsedPackCommands } from '../models';
 import { packConfigSchema } from '../schemas';
 import { readCache, readJsonFile, validateSrcDstDirs, writeCache, writeJsonFile } from '../utils';
