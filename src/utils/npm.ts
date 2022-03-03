@@ -230,6 +230,8 @@ export function fetchPackageVersions(packageName: string) {
 
   if (result.code !== 0) {
     throw new Error(`Fetch failed:\n${result.stderr}`);
+  } else if (!result.stdout.trim()) {
+    return [] as string[];
   }
 
   return parseJsonWithComments(result.stdout) as string[];

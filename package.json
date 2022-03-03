@@ -1,6 +1,6 @@
 {
   "name": "@agogpixel/cavy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated tool for NPM package development.",
   "keywords": [
     "npm",
